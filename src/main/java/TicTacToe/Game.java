@@ -60,6 +60,7 @@ public class Game {
         Game game = new Game(new Player(player1_name,player1_tile), new Player(player2_name,player2_tile));
         boolean turn = true;
         int moves = 0;
+        game.setStatus(GameStatus.IN_PROGRESS);
         while(game.getStatus()!= GameStatus.FINISHED){
             if(moves==9){
                 game.setStatus(GameStatus.FINISHED);
