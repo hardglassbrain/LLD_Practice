@@ -1,4 +1,4 @@
-package ElevatorSystem;
+package org.example.ElevatorSystem;
 
 import java.util.Comparator;
 import java.util.List;

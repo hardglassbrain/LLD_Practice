@@ -1,4 +1,4 @@
-package ElevatorSystem;
+package org.example.ElevatorSystem;
 
 public class Request {
     int floor;
